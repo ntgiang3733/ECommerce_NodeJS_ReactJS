@@ -18,9 +18,13 @@ const keyTokenSchema = new Schema({
         type: String,
         require: true
     },
-    refreshToken: {
+    refreshTokensUsed: { // nhung RT da duoc su dung
         type: Array,
         default: []
+    },
+    refreshToken: {
+        type: String,
+        require: true
     }
 }, {
     timestamps: true,
