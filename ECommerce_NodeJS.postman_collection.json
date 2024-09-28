@@ -1,0 +1,938 @@
+{
+	"id": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+	"name": "ECommerce_NodeJS",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "access",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"order": [
+				"fbe0c4ba-9b1d-4f13-4182-38c91d1c5f3e",
+				"9b69ebb7-f45d-ae84-c111-7b7ff54da3d1"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "ac7a18c9-82e6-0400-cd62-48fa50b82a1e"
+		},
+		{
+			"name": "cart",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"order": [
+				"06c5d130-c797-a572-0e8b-09b1773b398c",
+				"b2ef64f7-95ef-a678-879f-82367bcd64ee",
+				"769aeb2f-cd63-5408-aebd-9902e8faea8f",
+				"6b024981-8ce8-6681-0b33-e020fb488818"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "34fdd9ae-8134-d528-be5e-8fe7dc0ead4d"
+		},
+		{
+			"name": "checkout",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"order": [
+				"6b053346-b96f-b4a3-cf0a-a98fcfe9318d"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "6fc67ea5-a457-dc84-1601-e34c4c9797c4"
+		},
+		{
+			"name": "discount",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"order": [
+				"a3ca2462-21ca-8920-a1e3-0ae568189972",
+				"343c62f7-641c-344e-f961-fc7915ec78d6",
+				"937c3376-dbfb-6de5-bbf9-8cea0f5b6a35"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "d654e5bc-3b05-4741-70d5-47e1099701f2"
+		},
+		{
+			"name": "product",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"order": [
+				"44d0dccc-6b4d-51c5-d2ab-b8cbfa0d0f27",
+				"25100eab-a2df-2ac6-d2dd-8f9398154b3d",
+				"ed31536b-1949-30f2-d8de-a6def1ad3a91",
+				"17c08ae8-69c8-1d5c-0027-af0ffc31f1f0",
+				"0fca619d-cd6c-e93d-8ed4-6622da35bfc8",
+				"e0862b9d-355a-fac8-0b03-e2ac59319800",
+				"08f335e9-93c7-99cc-1516-a9a6079310c6",
+				"3054f56f-270d-906d-1ef8-022885bd7e66"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "a3b12c5c-19d9-718a-f863-5c81c2d7359a"
+		}
+	],
+	"folders_order": [
+		"a3b12c5c-19d9-718a-f863-5c81c2d7359a",
+		"ac7a18c9-82e6-0400-cd62-48fa50b82a1e",
+		"d654e5bc-3b05-4741-70d5-47e1099701f2",
+		"34fdd9ae-8134-d528-be5e-8fe7dc0ead4d",
+		"6fc67ea5-a457-dc84-1601-e34c4c9797c4"
+	],
+	"timestamp": 1727165982430,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "06c5d130-c797-a572-0e8b-09b1773b398c",
+			"headers": "x-api-key: 123456a\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/cart",
+			"folder": "34fdd9ae-8134-d528-be5e-8fe7dc0ead4d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727381802869,
+			"name": "addToCart",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"rawModeData": "{\n\t\"userId\": 1001,\n\t\"product\": {\n\t\t\"productId\": \"66f31d011450cd083d988920\",\n\t\t\"shopId\": \"66eddb5b188e3c50af75247d\",\n\t\t\"quantity\": 1,\n\t\t\"name\": \"123\",\n\t\t\"price\": 1234\n\t} \n}"
+		},
+		{
+			"id": "08f335e9-93c7-99cc-1516-a9a6079310c6",
+			"headers": "x-api-key: 123456a\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/product/66f26f8bc139df97862cc7ea",
+			"folder": "a3b12c5c-19d9-718a-f863-5c81c2d7359a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727175349072,
+			"name": "findProduct",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"rawModeData": "{\r\n    \"product_name\": \"Băng Quấn Bảo Vệ Khuỷu Tay Co Giãn Tốt Tiện Dụng Khi Chơi Thể Thao Cho Nam\",\r\n    \"product_thumb\": \"https://salt.tikicdn.com/cache/100x100/ts/product/d6/4f/c3/71f089390f605d172b54edf6aaa1877e.jpg.webp\",\r\n    \"product_description\": \"Áo thun nam MRM kiểu dáng Regular fit tôn dáng cơ thể, làm nổi bật form người mặc thêm nam tính, khỏe khoắn mà vẫn thoải mái vận động.\",\r\n    \"product_price\": 1234.000,\r\n    \"product_quantity\": -23,\r\n    \"product_type\": \"Clothing\",\r\n    \"product_attributes\": {\r\n        \"brand\": \"MRM VietNam China\",\r\n        \"size\": \"XL\",\r\n        \"material\": \"Thun\"\r\n    }\r\n}"
+		},
+		{
+			"id": "0fca619d-cd6c-e93d-8ed4-6622da35bfc8",
+			"headers": "Content-Type: application/json\nx-api-key: 123456a\nx-client-id: 66eddb5b188e3c50af75247d\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8\nx-rtoken-id: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-client-id",
+					"value": "66eddb5b188e3c50af75247d",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-rtoken-id",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/product/66f26f8bc139df97862cc7ea",
+			"folder": "a3b12c5c-19d9-718a-f863-5c81c2d7359a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727207268577,
+			"name": "update product by shop",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"rawModeData": "{\r\n    \"product_name\": \"Update 001\",\r\n    \"product_price\": 4321,\r\n    \"product_attributes\": {\r\n        \"brand\": \"VietNam1\"\r\n    },\r\n    \"product_type\": \"Clothing\"\r\n}"
+		},
+		{
+			"id": "17c08ae8-69c8-1d5c-0027-af0ffc31f1f0",
+			"headers": "Content-Type: application/json\nx-api-key: 123456a\nx-client-id: 66eddb5b188e3c50af75247d\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8\nx-rtoken-id: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-client-id",
+					"value": "66eddb5b188e3c50af75247d",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-rtoken-id",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/product/published/all",
+			"folder": "a3b12c5c-19d9-718a-f863-5c81c2d7359a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727168194507,
+			"name": "getAllPublishForShop",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "17c08ae8-69c8-1d5c-0027-af0ffc31f1f0",
+			"rawModeData": "{\r\n    \"product_name\": \"Băng Quấn Bảo Vệ Khuỷu Tay Co Giãn Tốt Tiện Dụng Khi Chơi Thể Thao Cho Nam\",\r\n    \"product_thumb\": \"https://salt.tikicdn.com/cache/100x100/ts/product/d6/4f/c3/71f089390f605d172b54edf6aaa1877e.jpg.webp\",\r\n    \"product_description\": \"Áo thun nam MRM kiểu dáng Regular fit tôn dáng cơ thể, làm nổi bật form người mặc thêm nam tính, khỏe khoắn mà vẫn thoải mái vận động.\",\r\n    \"product_price\": 1234.000,\r\n    \"product_quantity\": -23,\r\n    \"product_type\": \"Clothing\",\r\n    \"product_attributes\": {\r\n        \"brand\": \"MRM VietNam China\",\r\n        \"size\": \"XL\",\r\n        \"material\": \"Thun\"\r\n    }\r\n}"
+		},
+		{
+			"id": "25100eab-a2df-2ac6-d2dd-8f9398154b3d",
+			"headers": "Content-Type: application/json\nx-api-key: 123456a\nx-client-id: 66eddb5b188e3c50af75247d\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8\nx-rtoken-id: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-client-id",
+					"value": "66eddb5b188e3c50af75247d",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-rtoken-id",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/product",
+			"folder": "a3b12c5c-19d9-718a-f863-5c81c2d7359a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727259741387,
+			"name": "Create new product",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"rawModeData": "{\r\n    \"product_name\": \"Áo thun polo 0009999\",\r\n    \"product_thumb\": \"https://thumb.shopDev.com/thumb1\",\r\n    \"product_description\": \"Áo CHẤT THUN COTTON co dãn nhẹ, vải mềm, thấm mồ hôi, không xù lông, không ra màu.\",\r\n    \"product_price\":129000,\r\n    \"product_quantity\": 230,\r\n    \"product_type\": \"Clothing\", \r\n    \"product_attributes\": {\r\n        \"brand\": \"Trung Quốc\", \r\n        \"size\":\"XL\",\r\n        \"material\": \"Cotton\"\r\n    }\r\n}"
+		},
+		{
+			"id": "3054f56f-270d-906d-1ef8-022885bd7e66",
+			"headers": "x-api-key: 123456a\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/product/search/bang quan",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"data": null,
+			"dataMode": "params",
+			"name": "getListSearchProduct",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1727174718639,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "3054f56f-270d-906d-1ef8-022885bd7e66",
+			"folder": "a3b12c5c-19d9-718a-f863-5c81c2d7359a"
+		},
+		{
+			"id": "343c62f7-641c-344e-f961-fc7915ec78d6",
+			"headers": "x-api-key: 123456a\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/discount/list_product_code?code=SHOP-1133&shopId=66eddb5b188e3c50af75247d&limit=50&page=1",
+			"queryParams": [
+				{
+					"key": "code",
+					"value": "SHOP-1133",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "shopId",
+					"value": "66eddb5b188e3c50af75247d",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limit",
+					"value": "50",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"data": null,
+			"dataMode": "params",
+			"name": "getAllDiscountCodesWithProducts",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1727261176779,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "d654e5bc-3b05-4741-70d5-47e1099701f2"
+		},
+		{
+			"id": "44d0dccc-6b4d-51c5-d2ab-b8cbfa0d0f27",
+			"headers": "Content-Type: application/json\nx-api-key: 123456a\nx-client-id: 66eddb5b188e3c50af75247d\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8\nx-rtoken-id: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-client-id",
+					"value": "66eddb5b188e3c50af75247d",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-rtoken-id",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/product/drafts/all",
+			"folder": "a3b12c5c-19d9-718a-f863-5c81c2d7359a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727168175725,
+			"name": "getAllDraftForShop",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "44d0dccc-6b4d-51c5-d2ab-b8cbfa0d0f27",
+			"rawModeData": "{\r\n    \"product_name\": \"Băng Quấn Bảo Vệ Khuỷu Tay Co Giãn Tốt Tiện Dụng Khi Chơi Thể Thao Cho Nam\",\r\n    \"product_thumb\": \"https://salt.tikicdn.com/cache/100x100/ts/product/d6/4f/c3/71f089390f605d172b54edf6aaa1877e.jpg.webp\",\r\n    \"product_description\": \"Áo thun nam MRM kiểu dáng Regular fit tôn dáng cơ thể, làm nổi bật form người mặc thêm nam tính, khỏe khoắn mà vẫn thoải mái vận động.\",\r\n    \"product_price\": 1234.000,\r\n    \"product_quantity\": -23,\r\n    \"product_type\": \"Clothing\",\r\n    \"product_attributes\": {\r\n        \"brand\": \"MRM VietNam China\",\r\n        \"size\": \"XL\",\r\n        \"material\": \"Thun\"\r\n    }\r\n}"
+		},
+		{
+			"id": "6b024981-8ce8-6681-0b33-e020fb488818",
+			"headers": "x-api-key: 123456a\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/cart",
+			"folder": "34fdd9ae-8134-d528-be5e-8fe7dc0ead4d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727364483027,
+			"name": "deleteUserCart",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"rawModeData": "{\n\t\"userId\": 1001,\n\t\"productId\": \"66f31d011450cd083d988920\"\n}"
+		},
+		{
+			"id": "6b053346-b96f-b4a3-cf0a-a98fcfe9318d",
+			"headers": "x-api-key: 123456a\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/checkout/review",
+			"folder": "6fc67ea5-a457-dc84-1601-e34c4c9797c4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727382585464,
+			"name": "checkoutReview",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"rawModeData": "{\n\t\"cartId\": \"66f57cf6c9ebfb3bba84ff77\",\n\t\"shop_order_ids\": [\n\t\t{\n\t\t\t\"shopId\": \"66eddb5b188e3c50af75247d\",\n\t\t\t\"shop_discounts\": [\n\t\t\t\t{\n\t\t\t\t\t\"shopId\": \"66eddb5b188e3c50af75247d\",\n\t\t\t\t\t\"discountId\": \"66f3e739141238b77bf33896\",\n\t\t\t\t\t\"codeId\": \"SHOP-1133\"\n\t\t\t\t}\n\t\t\t],\n\t\t\t\"item_products\": [\n\t\t\t\t{\n\t\t\t\t\t\"productId\": \"66f31cc5f80342943641a971\",\n\t\t\t\t\t\"quantity\": 1,\n\t\t\t\t\t\"price\": 1000\n\t\t\t\t}\n\t\t\t]\n\t\t}\t\n\t]\n}"
+		},
+		{
+			"id": "769aeb2f-cd63-5408-aebd-9902e8faea8f",
+			"headers": "x-api-key: 123456a\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/cart?userId=1001",
+			"folder": "34fdd9ae-8134-d528-be5e-8fe7dc0ead4d",
+			"queryParams": [
+				{
+					"key": "userId",
+					"value": "1001",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727364952766,
+			"name": "getListUserCart",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"rawModeData": "{\n\t\"userId\": 1001,\n\t\"product\": {\n\t\t\"productId\": \"66f31d011450cd083d988920\",\n\t\t\"shopId\": \"66eddb5b188e3c50af75247d\",\n\t\t\"quantity\": 10,\n\t\t\"name\": \"123\",\n\t\t\"price\": 1234\n\t} \n}"
+		},
+		{
+			"id": "937c3376-dbfb-6de5-bbf9-8cea0f5b6a35",
+			"headers": "x-api-key: 123456a\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8\nx-rtoken-id: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc\nx-client-id: 66eddb5b188e3c50af75247d\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-rtoken-id",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-client-id",
+					"value": "66eddb5b188e3c50af75247d",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/discount?shopId=66eddb5b188e3c50af75247d&limit=50&page=1",
+			"folder": "d654e5bc-3b05-4741-70d5-47e1099701f2",
+			"queryParams": [
+				{
+					"key": "shopId",
+					"value": "66eddb5b188e3c50af75247d",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limit",
+					"value": "50",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727261330593,
+			"name": "getAllDiscountCodes",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": []
+		},
+		{
+			"id": "9b69ebb7-f45d-ae84-c111-7b7ff54da3d1",
+			"headers": "Content-Type: application/json\nx-api-key: 123456a\nx-client-id: 66eddb5b188e3c50af75247d\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NTIsImV4cCI6MTcyNzI4MzY1Mn0.L9VAAH9S89GVeFSb6qJ29j6M5xvPMdrh1YZ1AcoqveQ\nx-rtoken-id: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NTIsImV4cCI6MTcyNzcxNTY1Mn0.0qlx1D23zcaE3TmWmrWDw1P5EAu1tr_xWW4XVYMWSvg\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-client-id",
+					"value": "66eddb5b188e3c50af75247d",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NTIsImV4cCI6MTcyNzI4MzY1Mn0.L9VAAH9S89GVeFSb6qJ29j6M5xvPMdrh1YZ1AcoqveQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-rtoken-id",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NTIsImV4cCI6MTcyNzcxNTY1Mn0.0qlx1D23zcaE3TmWmrWDw1P5EAu1tr_xWW4XVYMWSvg",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/shop/handlerRefreshToken",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"data": [],
+			"dataMode": "raw",
+			"name": "handlerRefreshToken",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1727166014613,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "ac7a18c9-82e6-0400-cd62-48fa50b82a1e",
+			"rawModeData": ""
+		},
+		{
+			"id": "a3ca2462-21ca-8920-a1e3-0ae568189972",
+			"headers": "Content-Type: application/json\nx-api-key: 123456a\nx-client-id: 66eddb5b188e3c50af75247d\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8\nx-rtoken-id: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-client-id",
+					"value": "66eddb5b188e3c50af75247d",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-rtoken-id",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/discount",
+			"folder": "a3b12c5c-19d9-718a-f863-5c81c2d7359a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727260624898,
+			"name": "Create new discount by shop",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"rawModeData": "{\r\n    \"name\": \"name fixed amount\",\r\n    \"description\": \"description\",\r\n    \"type\": \"percentage\",\r\n    \"value\": 30000,\r\n    \"max_value\": 30000,\r\n    \"code\": \"SHOP-1133\",\r\n    \"start_date\": \"2024-09-26 09:00:00\",\r\n    \"end_date\": \"2024-09-28 09:00:00\",\r\n    \"max_uses\": 100,\r\n    \"uses_count\": 0,\r\n    \"users_used\": [],\r\n    \"max_uses_per_user\": 1,\r\n    \"min_order_value\": 200000,\r\n    \"created_by\": {},\r\n    \"is_active\": true,\r\n    \"applies_to\": \"all\",\r\n    \"product_ids\": [\r\n        \"66f31d011450cd083d988920\",\r\n        \"66f31cc5f80342943641a971\"\r\n    ]\r\n}"
+		},
+		{
+			"id": "b2ef64f7-95ef-a678-879f-82367bcd64ee",
+			"headers": "x-api-key: 123456a\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/cart/update",
+			"folder": "34fdd9ae-8134-d528-be5e-8fe7dc0ead4d",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727365770204,
+			"name": "update",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"rawModeData": "{\n\t\"userId\": 1001,\n\t\"shop_order_ids\": [\n\t\t{\n\t\t\"shopId\": \"66eddb5b188e3c50af75247d\",\n\t\t\"item_products\": [\n\t\t\t{\n\t\t\t\t\"quantity\": 8,\n\t\t\t\t\"price\": 1234,\n\t\t\t\t\"old_quantity\": 20,\n\t\t\t\t\"productId\": \"66f31d011450cd083d988920\"\n\t\t\t}\n\t\t],\n\t\t\"version\": 2000\n\t}]\n}"
+		},
+		{
+			"id": "e0862b9d-355a-fac8-0b03-e2ac59319800",
+			"headers": "x-api-key: 123456a\n",
+			"headerData": [
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/product/",
+			"folder": "a3b12c5c-19d9-718a-f863-5c81c2d7359a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727174794404,
+			"name": "findAllProducts",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"rawModeData": "{\r\n    \"product_name\": \"Băng Quấn Bảo Vệ Khuỷu Tay Co Giãn Tốt Tiện Dụng Khi Chơi Thể Thao Cho Nam\",\r\n    \"product_thumb\": \"https://salt.tikicdn.com/cache/100x100/ts/product/d6/4f/c3/71f089390f605d172b54edf6aaa1877e.jpg.webp\",\r\n    \"product_description\": \"Áo thun nam MRM kiểu dáng Regular fit tôn dáng cơ thể, làm nổi bật form người mặc thêm nam tính, khỏe khoắn mà vẫn thoải mái vận động.\",\r\n    \"product_price\": 1234.000,\r\n    \"product_quantity\": -23,\r\n    \"product_type\": \"Clothing\",\r\n    \"product_attributes\": {\r\n        \"brand\": \"MRM VietNam China\",\r\n        \"size\": \"XL\",\r\n        \"material\": \"Thun\"\r\n    }\r\n}"
+		},
+		{
+			"id": "ed31536b-1949-30f2-d8de-a6def1ad3a91",
+			"headers": "Content-Type: application/json\nx-api-key: 123456a\nx-client-id: 66eddb5b188e3c50af75247d\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8\nx-rtoken-id: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-client-id",
+					"value": "66eddb5b188e3c50af75247d",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzI4MzY3Mn0.vUPZCVERCOYPu2U7Li80i9SfqADzt_ErlKTgL8u3Gs8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-rtoken-id",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/product/publish/66f26f8bc139df97862cc7ea",
+			"folder": "a3b12c5c-19d9-718a-f863-5c81c2d7359a",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1727168317033,
+			"name": "publishProductByShop",
+			"description": "",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "ed31536b-1949-30f2-d8de-a6def1ad3a91",
+			"rawModeData": ""
+		},
+		{
+			"id": "fbe0c4ba-9b1d-4f13-4182-38c91d1c5f3e",
+			"headers": "Content-Type: application/json\nx-api-key: 123456a\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-api-key",
+					"value": "123456a",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3056/v1/api/shop/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ada9b102-ba7c-ef80-2146-f23872f82ce7",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1727165989746,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "fbe0c4ba-9b1d-4f13-4182-38c91d1c5f3e",
+			"folder": "ac7a18c9-82e6-0400-cd62-48fa50b82a1e",
+			"rawModeData": "{\n\t\"email\": \"a05@gmail.com\",\n\t\"password\": \"123456\"\n}"
+		}
+	]
+}

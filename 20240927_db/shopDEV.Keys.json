@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "66f19ec4c9ebfb3bba84ff76"
+  },
+  "user": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-09-23T17:00:52.312Z"
+  },
+  "privateKey": "c14fa83fa47197781963efa2b97d79146306b031344348645d4818af717d1e454c9e412ddecd024ded6584e7f8fea2db7fa0c85feeaa2b3ff2e3a781ad7ef692",
+  "publicKey": "90121766ebee3a65b29848b0ad4fd5c2f0a2261927a7146044811da40a038da9695d7efe3bb33087461116d559921b32a624e0c4e6e86a78165896226649fe6d",
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NzIsImV4cCI6MTcyNzcxNTY3Mn0.aQxQXICAcpE0UOHqYodaRvTkcvskB0xA33vODIDJvWc",
+  "refreshTokensUsed": [
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVkZGI1YjE4OGUzYzUwYWY3NTI0N2QiLCJlbWFpbCI6ImEwNUBnbWFpbC5jb20iLCJpYXQiOjE3MjcxMTA4NTIsImV4cCI6MTcyNzcxNTY1Mn0.0qlx1D23zcaE3TmWmrWDw1P5EAu1tr_xWW4XVYMWSvg"
+  ],
+  "updatedAt": {
+    "$date": "2024-09-23T17:01:12.349Z"
+  }
+}]

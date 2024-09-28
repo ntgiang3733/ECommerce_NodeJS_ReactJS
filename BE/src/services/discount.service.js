@@ -163,7 +163,7 @@ class DiscountService {
         let totalOrder = 0;
         if (discount_min_order_value > 0) {
             totalOrder = products.reduce((acc, prod) => {
-                return acc + (prod.quantity * product.price);
+                return acc + (prod.quantity * prod.price);
             }, 0);
             if (totalOrder < discount_min_order_value) {
                 throw new NotFoundError(`Discount requires a minium order value id ${discount_min_order_value} !`);

@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "66f26f8bc139df97862cc7ea"
+  },
+  "product_shop": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "brand": "VietNam1",
+  "size": "XL",
+  "material": "Thun",
+  "createdAt": {
+    "$date": "2024-09-24T07:51:39.531Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-24T19:39:10.740Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f31c42b27ceb23dcc26b02"
+  },
+  "product_shop": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "brand": "Trung Quốc",
+  "size": "XL",
+  "material": "Cotton",
+  "createdAt": {
+    "$date": "2024-09-24T20:08:34.423Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-24T20:08:34.423Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f31c5a69ee8b11eb46ef58"
+  },
+  "product_shop": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "brand": "Trung Quốc",
+  "size": "XL",
+  "material": "Cotton",
+  "createdAt": {
+    "$date": "2024-09-24T20:08:58.869Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-24T20:08:58.869Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f31c8d69ee8b11eb46ef60"
+  },
+  "product_shop": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "brand": "Trung Quốc",
+  "size": "XL",
+  "material": "Cotton",
+  "createdAt": {
+    "$date": "2024-09-24T20:09:49.908Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-24T20:09:49.908Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f31cc5f80342943641a971"
+  },
+  "product_shop": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "brand": "Trung Quốc",
+  "size": "XL",
+  "material": "Cotton",
+  "createdAt": {
+    "$date": "2024-09-24T20:10:45.419Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-24T20:10:45.419Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f31d011450cd083d988920"
+  },
+  "product_shop": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "brand": "Trung Quốc",
+  "size": "XL",
+  "material": "Cotton",
+  "createdAt": {
+    "$date": "2024-09-24T20:11:45.828Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-24T20:11:45.828Z"
+  },
+  "__v": 0
+}]

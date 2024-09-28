@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "66f1bcbba7db4343d8233c45"
+  },
+  "product_shop": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "manufacturer": "Apple",
+  "model": "14",
+  "color": "Gold",
+  "createdAt": {
+    "$date": "2024-09-23T19:08:43.152Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-23T19:08:43.152Z"
+  },
+  "__v": 0
+}]

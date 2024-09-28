@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "66f57cf6c9ebfb3bba84ff77"
+  },
+  "cart_state": "active",
+  "cart_userId": 1001,
+  "__v": 2,
+  "cart_count_product": 0,
+  "cart_products": [
+    {
+      "productId": "66f31cc5f80342943641a971",
+      "shopId": "66eddb5b188e3c50af75247d",
+      "quantity": 1,
+      "name": "123",
+      "price": 1234
+    }
+  ],
+  "createdOn": {
+    "$date": "2024-09-26T15:25:42.145Z"
+  },
+  "modifiedOn": {
+    "$date": "2024-09-26T20:12:38.269Z"
+  }
+}]

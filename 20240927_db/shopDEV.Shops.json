@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "66eda18243b33f6d6388f86a"
+  },
+  "name": "Shop TIP",
+  "email": "a01@gmail.com",
+  "password": "$2b$10$aCxW3sgxj5rOof5NCb2tNu9j8ZkaQUuSucFBa0c0gnjyKBitKGtSW",
+  "status": "inactive",
+  "verify": false,
+  "roles": [
+    "SHOP"
+  ],
+  "createdAt": {
+    "$date": "2024-09-20T16:23:30.806Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T16:23:30.806Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66eda1d7a325888584596db6"
+  },
+  "name": "Shop TIP",
+  "email": "a02@gmail.com",
+  "password": "$2b$10$GOsdcKYyJ3gCb66c/4HV5.msKzU3q.NjqxnTYlg5zu0D8dxf.nWEu",
+  "status": "inactive",
+  "verify": false,
+  "roles": [
+    "SHOP"
+  ],
+  "createdAt": {
+    "$date": "2024-09-20T16:24:55.448Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T16:24:55.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66eda2267c6823cd3c7356f1"
+  },
+  "name": "Shop TIP",
+  "email": "a03@gmail.com",
+  "password": "$2b$10$/0LX7d5sarwxAjpCGKjWyOHoDS3s61lLrH2WLe7Om62SUVaXO4zRu",
+  "status": "inactive",
+  "verify": false,
+  "roles": [
+    "SHOP"
+  ],
+  "createdAt": {
+    "$date": "2024-09-20T16:26:14.471Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T16:26:14.471Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66edda9bfecfe15b97df8766"
+  },
+  "name": "Shop TIP",
+  "email": "a04@gmail.com",
+  "password": "$2b$10$LOORO3uK0K5DOLw8cTvTQuEJ49IeBm3N0RmfbQ.tBQeDaflIzCmY6",
+  "status": "inactive",
+  "verify": false,
+  "roles": [
+    "SHOP"
+  ],
+  "createdAt": {
+    "$date": "2024-09-20T20:27:07.928Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T20:27:07.928Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "name": "Shop TIP",
+  "email": "a05@gmail.com",
+  "password": "$2b$10$q9ZHfk12oc6UGd3Ok.pcWe8GAEXg99FSckJLIUtw3flnB8nPeYTpG",
+  "status": "inactive",
+  "verify": false,
+  "roles": [
+    "SHOP"
+  ],
+  "createdAt": {
+    "$date": "2024-09-20T20:30:19.320Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-20T20:30:19.320Z"
+  },
+  "__v": 0
+}]

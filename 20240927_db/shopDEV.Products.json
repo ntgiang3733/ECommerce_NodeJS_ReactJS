@@ -1,0 +1,155 @@
+[{
+  "_id": {
+    "$oid": "66f31c42b27ceb23dcc26b02"
+  },
+  "product_name": "Áo thun polo 0009999",
+  "product_thumb": "https://thumb.shopDev.com/thumb1",
+  "product_description": "Áo CHẤT THUN COTTON co dãn nhẹ, vải mềm, thấm mồ hôi, không xù lông, không ra màu.",
+  "product_price": 129000,
+  "product_quantity": 230,
+  "product_type": "Clothing",
+  "product_shop": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "product_attributes": {
+    "brand": "Trung Quốc",
+    "size": "XL",
+    "material": "Cotton"
+  },
+  "product_ratingsAverage": 4.5,
+  "product_variations": [],
+  "isDraft": true,
+  "isPublished": false,
+  "createdAt": {
+    "$date": "2024-09-24T20:08:34.449Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-24T20:08:34.449Z"
+  },
+  "product_slug": "ao-thun-polo-0009999",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f31c5a69ee8b11eb46ef58"
+  },
+  "product_name": "Áo thun polo 0009999",
+  "product_thumb": "https://thumb.shopDev.com/thumb1",
+  "product_description": "Áo CHẤT THUN COTTON co dãn nhẹ, vải mềm, thấm mồ hôi, không xù lông, không ra màu.",
+  "product_price": 129000,
+  "product_quantity": 230,
+  "product_type": "Clothing",
+  "product_shop": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "product_attributes": {
+    "brand": "Trung Quốc",
+    "size": "XL",
+    "material": "Cotton"
+  },
+  "product_ratingsAverage": 4.5,
+  "product_variations": [],
+  "isDraft": true,
+  "isPublished": false,
+  "createdAt": {
+    "$date": "2024-09-24T20:08:58.890Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-24T20:08:58.890Z"
+  },
+  "product_slug": "ao-thun-polo-0009999",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f31c8d69ee8b11eb46ef60"
+  },
+  "product_name": "Áo thun polo 0009999",
+  "product_thumb": "https://thumb.shopDev.com/thumb1",
+  "product_description": "Áo CHẤT THUN COTTON co dãn nhẹ, vải mềm, thấm mồ hôi, không xù lông, không ra màu.",
+  "product_price": 129000,
+  "product_quantity": 230,
+  "product_type": "Clothing",
+  "product_shop": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "product_attributes": {
+    "brand": "Trung Quốc",
+    "size": "XL",
+    "material": "Cotton"
+  },
+  "product_ratingsAverage": 4.5,
+  "product_variations": [],
+  "isDraft": true,
+  "isPublished": false,
+  "createdAt": {
+    "$date": "2024-09-24T20:09:49.921Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-24T20:09:49.921Z"
+  },
+  "product_slug": "ao-thun-polo-0009999",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f31cc5f80342943641a971"
+  },
+  "product_name": "Áo thun polo 0009999",
+  "product_thumb": "https://thumb.shopDev.com/thumb1",
+  "product_description": "Áo CHẤT THUN COTTON co dãn nhẹ, vải mềm, thấm mồ hôi, không xù lông, không ra màu.",
+  "product_price": 1000,
+  "product_quantity": 230,
+  "product_type": "Clothing",
+  "product_shop": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "product_attributes": {
+    "brand": "Trung Quốc",
+    "size": "XL",
+    "material": "Cotton"
+  },
+  "product_ratingsAverage": 4.5,
+  "product_variations": [],
+  "isDraft": false,
+  "isPublished": true,
+  "createdAt": {
+    "$date": "2024-09-24T20:10:45.439Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-24T20:10:45.439Z"
+  },
+  "product_slug": "ao-thun-polo-0009999",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f31d011450cd083d988920"
+  },
+  "product_name": "Áo thun polo 0009999",
+  "product_thumb": "https://thumb.shopDev.com/thumb1",
+  "product_description": "Áo CHẤT THUN COTTON co dãn nhẹ, vải mềm, thấm mồ hôi, không xù lông, không ra màu.",
+  "product_price": 2000,
+  "product_quantity": 230,
+  "product_type": "Clothing",
+  "product_shop": {
+    "$oid": "66eddb5b188e3c50af75247d"
+  },
+  "product_attributes": {
+    "brand": "Trung Quốc",
+    "size": "XL",
+    "material": "Cotton"
+  },
+  "product_ratingsAverage": 4.5,
+  "product_variations": [],
+  "isDraft": false,
+  "isPublished": true,
+  "createdAt": {
+    "$date": "2024-09-24T20:11:50.675Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-24T20:11:50.675Z"
+  },
+  "product_slug": "ao-thun-polo-0009999",
+  "__v": 0
+}]
