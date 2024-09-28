@@ -1,9 +1,11 @@
 'use strict'
 
 const { BadRequestError } = require("../core/error.response");
+const { order } = require("../models/order.model");
 const { findCartById } = require("../models/repositories/cart.repo");
 const { checkProductByServer } = require("../models/repositories/product.repo");
-const { getDiscountAmount } = require('./discount.service')
+const { getDiscountAmount } = require('./discount.service');
+const { acquireLock } = require("./redis.service");
 
 class CheckoutService {
 
@@ -83,6 +85,50 @@ class CheckoutService {
             shop_order_ids_new,
             checkout_order
         }
+    }
+
+    static async orderByUser({
+        shop_order_ids,
+        cartId,
+        userId,
+        user_address = {},
+        user_payment = {}
+    }) {
+        const {
+            shop_order_ids_new,
+            checkout_order
+        } = await CheckoutService.checkoutReview({
+            cartId, userId, shop_order_ids
+        });
+
+        // check lai mot lan xem vuot ton kho hay khong
+        const products = shop_order_ids_new.flatMap( order => order.item_products);
+        const acquireProduct = [];
+        for (let i = 0; i < products.length; i++) {
+            const { productId, quantity } = products[i];
+            const keyLock = await acquireLock(productId, quantity, cartId);
+            acquireProduct.push( keyLock ? true: false );
+            if (keyLock) {
+                await releaseLock(keyLock);
+            }
+        }
+
+        if (acquireLock.includes(false)) {
+            throw new BadRequestError('Mot so sf da duoc cap nhat, vui long quay lai gio hang...');
+        }
+        const newOrder = await order.create({
+            order_userId: userId,
+            order_checkout: checkout_order,
+            order_shipping: user_address,
+            order_payment: user_payment,
+            order_products: shop_order_ids_new
+        });
+        if (newOrder) {
+            // remove prod in cart
+            // ...
+        }
+        
+        return newOrder;
     }
 }
 
